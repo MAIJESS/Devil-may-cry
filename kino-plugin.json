@@ -1,0 +1,370 @@
+{
+  "id": "dmc-themes",
+  "name": "Devil May Cry",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Temas para toda la app inspirados en la serie Devil May Cry de Netflix: Dante, Vergil, Lady y Trish, cada uno con su paleta y su logo de Kino modificado.",
+  "author": "Comunidad Kino",
+  "hosts": [],
+  "capabilities": [
+    "screen"
+  ],
+  "categories": [
+    "themes"
+  ],
+  "color": "#D91B3A",
+  "icon": "icon.png",
+  "screen": {
+    "label": "Devil May Cry",
+    "labelEn": "Devil May Cry",
+    "icon": "star",
+    "menuOpens": "screen"
+  },
+  "appThemes": [
+    {
+      "id": "dmc-dante",
+      "name": {
+        "es": "Dante · Rojo Carmesí",
+        "en": "Dante · Crimson"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#D91B3A",
+        "onAccent": "#FFFFFF",
+        "background": "#150F1F",
+        "surface": "#221733",
+        "surfaceHigh": "#2E2144",
+        "railPanel": "#1B1229",
+        "textPrimary": "#F2F3F8",
+        "textSecondary": "#B7AECB",
+        "focus": "#E0A82E",
+        "onFocus": "#150F1F",
+        "border": "#D91B3A"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#150F1F",
+          "#2A0F1E"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 4,
+        "channelRadius": 4,
+        "buttonRadius": 2,
+        "chipRadius": 2,
+        "dialogRadius": 4,
+        "inputRadius": 2,
+        "cardBorder": 1,
+        "dialogBorder": 2,
+        "headerBorder": 1
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.1,
+        "bodyScale": 1.0
+      },
+      "elevation": {
+        "cardShadow": 0.6,
+        "heroScrim": 0.8
+      },
+      "motion": {
+        "focusZoom": 1.08
+      },
+      "player": {
+        "buttonShape": "square",
+        "buttonScale": 1.1
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#D91B3A",
+            "#E8452C",
+            "#E0A82E"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 16
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.2
+        },
+        "background": true
+      },
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M-78 -92 C-118 -112 -128 -160 -95 -205 C-100 -160 -82 -135 -52 -112 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M78 -92 C118 -112 128 -160 95 -205 C100 -160 82 -135 52 -112 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M0 -26 A26 26 0 1 1 0 26 A26 26 0 1 1 0 -26 Z",
+              "fill": "accent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dmc-vergil",
+      "name": {
+        "es": "Vergil · Yamato",
+        "en": "Vergil · Yamato"
+      },
+      "experience": "light",
+      "colors": {
+        "accent": "#4DA3FF",
+        "onAccent": "#0B1020",
+        "background": "#0B1020",
+        "surface": "#141B33",
+        "surfaceHigh": "#1E2848",
+        "railPanel": "#101830",
+        "textPrimary": "#EAF1FF",
+        "textSecondary": "#A9B8D8",
+        "focus": "#BFE0FF",
+        "onFocus": "#0B1020",
+        "border": "#2E4A80"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0B1020",
+          "#1B1040"
+        ],
+        "angle": 160
+      },
+      "shape": {
+        "cardRadius": 2,
+        "channelRadius": 2,
+        "buttonRadius": 2,
+        "chipRadius": 2,
+        "dialogRadius": 2,
+        "inputRadius": 2,
+        "cardBorder": 1,
+        "dialogBorder": 1,
+        "headerBorder": 1
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.05,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.04,
+        "crossfadeMs": 350
+      },
+      "player": {
+        "buttonShape": "square"
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#4DA3FF",
+            "#7C4DFF",
+            "#BFE0FF"
+          ]
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.2
+        },
+        "background": true
+      },
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M-150 90 L150 -90 L154 -83 L-146 97 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M-70 -150 L-25 -195 L-19 -189 L-64 -144 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M40 135 L85 90 L91 96 L46 141 Z",
+              "fill": "accent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dmc-lady",
+      "name": {
+        "es": "Lady · Kalina Ann",
+        "en": "Lady · Kalina Ann"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#19C6B0",
+        "onAccent": "#04100F",
+        "background": "#0A1517",
+        "surface": "#11262A",
+        "surfaceHigh": "#183439",
+        "railPanel": "#0E1E21",
+        "textPrimary": "#EAF7F5",
+        "textSecondary": "#9FC4C0",
+        "focus": "#FF8A3D",
+        "onFocus": "#0A1517",
+        "border": "#19C6B0"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0A1517",
+          "#14201A"
+        ],
+        "angle": 200
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 24,
+        "chipRadius": 20,
+        "dialogRadius": 20,
+        "inputRadius": 12,
+        "cardBorder": 1
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.05,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.1
+      },
+      "player": {
+        "buttonShape": "circle",
+        "buttonScale": 1.1,
+        "playButtonScale": 1.2
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#19C6B0",
+            "#FF8A3D",
+            "#7C4DFF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.25
+        },
+        "background": true
+      },
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M-4 -150 H4 V-108 H-4 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M-4 108 H4 V150 H-4 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M-150 -4 H-108 V4 H-150 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M108 -4 H150 V4 H108 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M0 -10 A10 10 0 1 1 0 10 A10 10 0 1 1 0 -10 Z",
+              "fill": "#FF8A3D"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dmc-trish",
+      "name": {
+        "es": "Trish · Relámpago",
+        "en": "Trish · Lightning"
+      },
+      "experience": "full",
+      "colors": {
+        "accent": "#F5D020",
+        "onAccent": "#14110A",
+        "background": "#14110A",
+        "surface": "#221C0E",
+        "surfaceHigh": "#30270F",
+        "railPanel": "#1B160B",
+        "textPrimary": "#FFF8E1",
+        "textSecondary": "#CFC29A",
+        "focus": "#FFF2A8",
+        "onFocus": "#14110A",
+        "border": "#F5D020"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#14110A",
+          "#241A05"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 10,
+        "channelRadius": 10,
+        "buttonRadius": 8,
+        "chipRadius": 12,
+        "dialogRadius": 12,
+        "inputRadius": 8,
+        "cardBorder": 1
+      },
+      "typography": {
+        "scale": 1.05,
+        "titleScale": 1.1,
+        "bodyScale": 1.0
+      },
+      "motion": {
+        "focusZoom": 1.1
+      },
+      "player": {
+        "buttonShape": "rounded"
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#F5D020",
+            "#FFB300",
+            "#FF6D3A"
+          ]
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.2
+        },
+        "background": true
+      },
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M40 -170 L-45 10 L-5 10 L-30 120 L55 -30 L12 -30 Z",
+              "fill": "accent"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
